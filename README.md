@@ -14,9 +14,14 @@
 Open the following links to see the result from the corresponding exercises.
 
 2.
-- (a) http://localhost:8080/exercise/get-all-books-by-publishing-year
-- (b) http://localhost:8080/exercise//get-all-books-from-author-whose-last-name-starts-with?q=t
-- (c) http://localhost:8080/exercise/get-all-authors-for-which-there-are-books-from-the-same-decade-he-was-born
-- (d) http://localhost:8080/exercise/get-all-authors-with-more-than-three-books
-- (e) http://localhost:8080/exercise/oldest-and-newest-book
+- (a) `http://localhost:8080/exercise/get-all-books-by-publishing-year`
+- (b) `http://localhost:8080/exercise/get-all-books-from-author-whose-last-name-starts-with?q=t`
+- (c) `http://localhost:8080/exercise/get-all-authors-for-which-there-are-books-from-the-same-decade-he-was-born`
+- (d) `http://localhost:8080/exercise/get-all-authors-with-more-than-three-books`
+- (e) `http://localhost:8080/exercise/oldest-and-newest-book`
 
+The REST API is implemented in the following controllers:
+  - app\library\web\rest\AuthorController.java
+  - app\library\web\rest\BookController.java
+ 
+To run tests run `mvnw test`
